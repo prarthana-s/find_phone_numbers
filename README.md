@@ -11,6 +11,9 @@ sh find_numbers.sh
 
 *The output file list_of_numbers is stored outside the current directory, and will contain the phone numbers, one on each line. It is stored outside the current directory to avoid pattern matches in the output file during script re-runs.
 
+*A Sample_folder has been created with text files containing phone numbers to test the script.<br>
+Expected results is a file with 12 phone numbers.<br>
+
 grep options explained:<br>
 -r: recursively searches through directory<br>
 -o: displays only the matched pattern, and not the whole line<br>
