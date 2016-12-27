@@ -35,5 +35,5 @@ grep -roh --exclude='*.txt~' "\b[789][0-9]\{9\}\b" . > ../list_of_numbers
 Display name of a file where a phone number is found:<br>
 grep -ro --exclude='*.txt~' "\b[789][0-9]\{9\}\b" . | tee ../list_of_numbers
 
-Search another directory recursively:
+Search another directory recursively:<br>
 grep -roh --exclude='*.txt~' "\b[789][0-9]\{9\}\b" [Directory_name] | tee ../list_of_numbers
